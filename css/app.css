@@ -17,8 +17,8 @@ body {
 }
 
 body {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
-    font-family: 'Coda', cursive;
+    background: #f4f4f4 url('../img/geometric-pattern-3d-blocks.jpg'); /* Background pattern from publicdomainpictures.net */
+    font-family: 'Cabin', sans-serif;
 }
 
 .container {
@@ -29,8 +29,9 @@ body {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-weight: 300;
+    color:#003893;
 }
 
 /*
@@ -40,7 +41,7 @@ h1 {
 .deck {
     width: 660px;
     min-height: 680px;
-    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    background: linear-gradient(160deg, #f8c518 0%, #3a75c4 100%);
     padding: 32px;
     border-radius: 10px;
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
@@ -54,7 +55,7 @@ h1 {
 .deck .card {
     height: 125px;
     width: 125px;
-    background: #2e3d49;
+    background: #d4d4d4;
     font-size: 0;
     color: #ffffff;
     border-radius: 8px;
@@ -67,7 +68,7 @@ h1 {
 
 .deck .card.open {
     transform: rotateY(0);
-    background: #02b3e4;
+    background: #003893;
     cursor: default;
 }
 
@@ -77,7 +78,7 @@ h1 {
 
 .deck .card.match {
     cursor: default;
-    background: #02ccba;
+    background: #f8c518;
     font-size: 33px;
 }
 
@@ -96,6 +97,7 @@ h1 {
     padding: 0;
     display: inline-block;
     margin: 0 5px 0 0;
+    color:#003893;
 }
 
 .score-panel .stars li {
@@ -106,4 +108,38 @@ h1 {
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+
+.score-panel .timer {
+    margin-left: 50px;
+}
+
+/*
+ * Styles for the victory modal
+ */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+    background-color: #003893;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid #f8c518;
+    width: 70%;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color:#ffffff;
 }
