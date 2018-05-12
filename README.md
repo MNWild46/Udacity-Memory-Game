@@ -1,20 +1,33 @@
-# Memory Game Project
+# Welcome to the MATCHING GAME!
 
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Leaderboard](#leaderboard)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This is the Matching Game. Can you match all the cards to each other? How fast and in how few of moves can you acheive this?
 
-To get started, open `js/app.js` and start building out the app's functionality
+HOW TO PLAY:
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+1) Once the page is loaded start clicking cards.
+2) When you have a match the cards will turn yellow. This designates a complete match.
+3) Once all cards have been matched you will receive a victory popup detailing your time of completion, star (difficulty rating), and number of moves taken for victory.
 
-## Contributing
+Difficulty:
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+20 moves or less: Congrats! You've completed HARD mode. You're the cream of the crop.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+21 - 30 moves: Good Job! You're average. You completed it, but can do better I'm sure!
+
+Over 30 moves: Ouch! Keep trying! You can do better!
+
+
+## Leaderboard
+
+Can you beat my best time?
+
+Moves:      Time:
+
+20          31 Seconds
